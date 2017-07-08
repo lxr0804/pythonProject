@@ -7,3 +7,5 @@ if name == 'hello':
     print "hello girl"
 else:
     print name
+
+print "GIT"
