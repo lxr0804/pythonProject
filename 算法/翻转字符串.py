@@ -13,7 +13,5 @@ class Solution:
         return ' '.join(y)
 
 
-
 a = Solution()
-print a.reverseWords('hello world')
-
+print a.reverseWords('hello world hahha')

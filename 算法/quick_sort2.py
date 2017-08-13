@@ -1,5 +1,5 @@
 def quick(args):
-    if args == []:
+    if not args:
         return []
     small_list = []
     big_list = []
@@ -16,4 +16,4 @@ def quick(args):
 
 args = [2, 4, 1, 7, 2, 1, 6, 3]
 
-print quick(args)
+print quick(args)[-2]
